@@ -1,5 +1,48 @@
 *{
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
+}
+
+
+.wrapper{
+  text-align: center;
+  border: 1px solid;
+  height: 100vw;
+}
+
+
+.header{
+  margin: 10px 10px;
+  border: 1px solid black;
+  height: 50px;
+  text-align: left;
+}
+
+.sidebar{
+  border: 1px solid blue;
+  float: left;
+  text-align: left;
+  margin: 10px 10px;
+  width: 35%;
+  height: 1030px;
+}
+
+.main{
+  margin: 10px 10px;
+  border: 1px solid green;
+  float: right;
+  width: 61%;
+  height: 810px;
+}
+
+.footer{
+  text-align: left;
+  border: 1px solid red;
+  margin: 10px 10px;
+  height: 60px;
+  clear: both
+}
+
+span{
+ margin-left: 10px;
 }
