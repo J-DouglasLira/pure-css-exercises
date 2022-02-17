@@ -1,0 +1,73 @@
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+
+}
+
+.grid{
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.grid-template-areas-1{
+  grid-template-areas: "nav nav nav" 
+                       "sidenav content logo"
+                       "sidenav advert advert"
+                       "footer footer footer"
+}
+
+.logo{
+  grid-area: logo;
+  border:1px solid;
+  background: red;
+  color: #fff;
+}
+
+.nav{
+  grid-area: nav;
+  border:1px solid;
+  background: red;
+  color: #fff;
+}
+
+.content{
+  grid-area: content;
+  border:1px solid;
+  background: red;
+  color: #fff;
+}
+
+.sidenav{
+  grid-area: sidenav;
+  border:1px solid;
+  background: red;
+  color: #fff;
+}
+
+.advert{
+  grid-area: advert;
+  border:1px solid;
+  background: red;
+  color: #fff;
+}
+
+.footer{
+  grid-area: footer;
+  border:1px solid;
+  background: red;
+  color: #fff;
+}
